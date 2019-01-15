@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Getting me a job in Maniak
+Getting me a job @ Maniak
 
 ## Framework
 
