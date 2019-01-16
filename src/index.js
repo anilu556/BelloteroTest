@@ -3,32 +3,32 @@ import ReactDOM from 'react-dom';
 import './scss/main.scss';
 
 //Components
-import TopMenu from './components/topMenu';
-import Digitize from './components/digitize';
+import BlueTop from './components/blueTop';
+import LogoStrip from './components/logoStrip';
+import InfoSection from './components/infoSection';
+import ThreeSquares from './components/threeSquares';
+import Carousel from './components/carousel';
+import BCalculator from './components/bCalculator';
 import GetStarted from './components/getStarted';
 import BottomMenu from './components/bottomMenu';
 
-class BlueTop extends React.Component{
-	render() {
-    return(
-		<div className='blueTop'>
-			<TopMenu />
-			<Digitize />
-		</div>
-    );
-  }
-}
 class Bellotero extends React.Component{
   render() {
     return(
 	    <div>
 	      <BlueTop />
+        <LogoStrip />
+        <InfoSection />
+        <ThreeSquares />
+        <Carousel />
+        <BCalculator />
 	      <GetStarted />
 	      <BottomMenu />
 	    </div>
     );
   }
 }
+
 ReactDOM.render(
   <Bellotero />,
   document.getElementById('root')

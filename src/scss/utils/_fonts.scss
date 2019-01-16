@@ -13,6 +13,19 @@
   src: url('./fonts/Roboto-Medium.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('./fonts/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoSlab-Light';
+  src: url('./fonts/RobotoSlab-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoSlab-Thin';
+  src: url('./fonts/RobotoSlab-Thin.ttf') format('truetype');
+}
+
 @mixin RobotoLight() {
   font-family: 'Roboto-Light';
 }
@@ -21,6 +34,15 @@
 }
 @mixin RobotoMedium() {
   font-family: 'Roboto-Medium';
+}
+@mixin RobotoBold() {
+  font-family: 'Roboto-Bold';
+}
+@mixin RobotoSlabLight() {
+  font-family: 'RobotoSlab-Light';
+}
+@mixin RobotoSlabThin() {
+  font-family: 'RobotoSlab-Thin';
 }
 
 .light {
@@ -31,5 +53,14 @@
 }
 .medium {
   @include RobotoMedium();
+}
+.bold {
+  @include RobotoBold();
+}
+.slabLight {
+  @include RobotoSlabLight();
+}
+.slabThin {
+  @include RobotoSlabThin();
 }
 
