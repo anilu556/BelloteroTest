@@ -14,20 +14,22 @@ class Digitize extends React.Component {
 								and create your own shopping cart.
 							</div>
 						</div>
-						<div className='digitize__left__request'>
-
-						</div>
 					</div>
 					<div className='digitize__left__request'>
 						<form action="">
 							<input type="text" className='digitize__left__request__input regular' 
-								id="fname" name="firstname" placeholder="Your name.."/>
-							<input type="submit" value="Submit"/>
+								id="fname" name="firstname" 
+								placeholder="Your name..."/>
+							<input 
+								className='digitize__left__request__button medium' 
+								type="submit" 
+								value="Request a Demo"
+							/>
 						</form>
 					</div>
 				</div>
-				<div className='bluetop__center__compImg'>
-					<img src={compImg} alt="hero_mockup"></img>
+				<div className='digitize__right'>
+					<img className='digitize__right__img'src={compImg} alt="hero_mockup"></img>
 				</div>
 			</div>
       	);
