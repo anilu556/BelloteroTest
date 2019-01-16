@@ -1,3 +1,14 @@
-@import '_body.scss';
+//Utils
+@import 'utils/_colors.scss';
+@import 'utils/_fonts.scss';
+@import 'utils/_body.scss';
+
+//site
+@import 'site/_topMenu.scss';
+@import 'site/_digitize.scss';
+@import 'site/_getStarted.scss';
+@import 'site/_bottomMenu.scss';
+@import 'site/_footer.scss';
+
 @import '_logo.scss';
-@import '_navMenu.scss';
+@import '_blueTop.scss';

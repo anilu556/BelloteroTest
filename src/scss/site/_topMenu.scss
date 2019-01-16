@@ -1,0 +1,75 @@
+.topMenu{
+  	width:100%;
+  	height: 60px;
+  	background-color: #35374c;
+  	display: flex;
+  	flex-direction: row;
+	align-items: center;
+	//justify-content: center;
+  	&__logo{
+  		margin-left: 22px;
+  		margin-right: auto;
+  		width: 119px;
+		height: 26px;
+		object-fit: contain;
+  	}
+  	&__navBar {
+  		display: flex;
+  	}
+  	&__menuItem {
+  		width: 70px;
+		height: 16px;
+		font-size: 14px;
+		font-style: normal;
+		font-stretch: normal;margin:0px 10px 0px 0px;
+		line-height: normal;
+		letter-spacing: 0.3px;
+		text-align: left;
+		color: $whiteTrans;
+  	}
+  	&__list {
+  		padding: 0;
+		list-style: none;
+		display: flex;
+  		flex-direction: row;
+  		align-items: center;
+  		justify-content: center;
+  	}
+  	&__request {
+  		display: inline-flex;
+  		align-items: center; 
+  		justify-content: center;
+  		width: 120px;
+		height: 34px;
+		margin:0px 10px 0px 0px;
+		border-radius: 2px;
+		background-color: $teal;
+		font-size: 12px;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		text-align: center;
+		color: $white;
+
+  	}
+  	&__log {
+  		display: inline-flex;
+  		align-items: center; 
+  		justify-content: center;
+  		margin-right: 25px;
+  		width: 80px;
+		height: 34px;
+		border-radius: 2px;
+		border-width: 1px;
+		border-style: inset;
+    font-size: 12px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+		border-color: $whiteTrans;
+		color: $white;
+  	}
+  }

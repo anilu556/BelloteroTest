@@ -1,0 +1,28 @@
+.digitize {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  &__left {
+    margin-left: 100px;
+  	&__text {
+		width: 370px;
+		height: 181px;
+		font-size: 40px;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.5;
+		letter-spacing: -1px;
+		text-align: left;
+		color: $white;
+  	}
+    &__request {
+      &__input{
+        width: 275px;
+        height: 42px;
+        border-radius: 2px;
+        background-color: #1d1f35;
+      }
+    }
+  }
+}

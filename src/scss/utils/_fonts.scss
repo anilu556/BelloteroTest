@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('./fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('./fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@mixin RobotoLight() {
+  font-family: 'Roboto-Light';
+}
+@mixin RobotoRegular() {
+  font-family: 'Roboto-Regular';
+}
+@mixin RobotoMedium() {
+  font-family: 'Roboto-Medium';
+}
+
+.light {
+  @include RobotoLight();
+}
+.regular {
+  @include RobotoRegular();
+}
+.medium {
+  @include RobotoMedium();
+}
+
