@@ -1,6 +1,6 @@
 import React from 'react';
 
-import compImg from '../img/hero-mockup.png'
+import compImg from '../img/hero-mockup.png';
 
 class Digitize extends React.Component {
 	render() {

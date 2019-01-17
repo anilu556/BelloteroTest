@@ -2,8 +2,13 @@
 	width: 100%;
 	height: 675px;
 	background-color: $white;
+	display: flex;
+	&__container {
+		width: 100%;
+		margin: 0 auto 100px auto;
+	}
 	&__top {
-		margin-left: 160px;
+		margin-left: 15%;
 		margin-top: 80px;
 		max-width: 465px;
 		&__bold {
@@ -29,7 +34,7 @@
 }
 .savingsCalc {
 	margin-top: 50px;
-	margin-left: 160px;
+	margin-left: 15%;
 	max-width: 465px;
 	display:flex;
 	flex-direction: row;
