@@ -15,4 +15,4 @@ React
 1. Clone/fork the repository to your computer.
 2. Install npm (if you don't have it already).
 3. Run "npm install" to install the packages it needs to run. Wait a while. 
-4. Run "npm start". This should open the app. 
+4. Run "npm start". This should open the app. If not, go to http://localhost:3000
