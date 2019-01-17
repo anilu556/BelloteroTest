@@ -12,8 +12,8 @@ class InfoSection extends React.Component{
 				<div className='infoSection__top'>
 					<div className='infoSection__top__left'>
 						<div className='infoSection__top__left__bold medium'>
-							Bellotero.io is the digital solution that  gives you fast, accurate, 
-							automated accounts payable and smart,  business-transforming insights. 
+							Bellotero.io is the digital solution that gives you fast, accurate, 
+							automated accounts payable and smart, business-transforming insights. 
 						</div>
 						<div className='infoSection__top__left__full'>
 							<div className='infoSection__top__left__full__get light'>

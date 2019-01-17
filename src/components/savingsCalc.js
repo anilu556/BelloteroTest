@@ -9,7 +9,7 @@ const sliderStyle = {  // Give the slider some width
 }
 const railStyle = { 
 	position: 'absolute',
-	width: '465px',
+	width: '100%',
 	height: 3,
 	marginTop: 70,
 	borderRadius: 5,

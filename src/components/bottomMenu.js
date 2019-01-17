@@ -31,10 +31,18 @@ class BottomMenu extends React.Component {
 							Social
 						</div>
 						<ul className='bottomMenu__list medium'>
-			      			<li className='bottomMenu__menuItem'>Facebook</li>
-			      			<li className='bottomMenu__menuItem'>Twitter</li>
-			      			<li className='bottomMenu__menuItem'>LinkedIn</li>
-			      			<li className='bottomMenu__menuItem'>Instagram</li>
+			      			<a href="https://www.facebook.com/SpiderManUnNuevoUniverso/">
+			      				<li className='bottomMenu__menuItem'>Facebook</li>
+			      			</a>
+			      			<a href="https://twitter.com/crowsx3">
+			      				<li className='bottomMenu__menuItem'>Twitter</li>
+			      			</a>
+			      			<a href="https://www.linkedin.com/in/heberto-moreno-márquez-9269918a">
+			      				<li className='bottomMenu__menuItem'>LinkedIn</li>
+			      			</a>
+			      			<a href="https://www.instagram.com/chrislejarazu/">
+			      				<li className='bottomMenu__menuItem'>Instagram</li>
+			      			</a>
 		      			</ul>
 					</div>
 					<div className='bottomMenu__support'>
