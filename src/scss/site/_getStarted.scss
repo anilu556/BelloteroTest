@@ -2,4 +2,69 @@
 	width: 100%;
 	height: 400px;
 	background-color: $getStarted;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	&__left {
+		width: 384px;
+		height: 120px;
+		font-size: 40px;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.5;
+		letter-spacing: -1px;
+		text-align: left;
+		color: $white;
+		&__special {
+			color: rgba(255, 255, 255, 0.5);
+		}
+	}
+	&__right{
+		&__top {
+			width: 358px;
+			height: 72px;
+			font-size: 24px;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			text-align: left;
+			color: rgba(255, 255, 255, 0.88);
+		}
+		&__bottom {
+	      //width: 450px;
+	      &__input{
+	        width: 326px;
+			height: 42px;
+			border-radius: 2px;
+			background-color: rgba(0, 93, 76, 0.39);
+	        font-size: 14px;
+	        text-indent: 10px;
+	        font-weight: normal;
+	        font-style: normal;
+	        font-stretch: normal;
+	        line-height: 1;
+	        letter-spacing: normal;
+	        text-align: left;
+	        color: rgba(255, 255, 255, 0.5);
+	        border: none;
+	      }
+	      &__button {
+	        width: 142px;
+			height: 42px;
+			border-radius: 2px;
+			background-color: #00856c;
+	        margin-left: -3px;
+	        border: none;
+	        font-size: 12px;
+	        font-style: normal;
+	        font-stretch: normal;
+	        line-height: 1;
+	        letter-spacing: normal;
+	        text-align: center;
+	        color: $white;
+	      }
+	    }
+	}
 }

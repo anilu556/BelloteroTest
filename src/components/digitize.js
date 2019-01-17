@@ -19,7 +19,7 @@ class Digitize extends React.Component {
 						<form action="">
 							<input type="text" className='digitize__left__request__input regular' 
 								id="fname" name="firstname" 
-								placeholder="Your name..."/>
+								placeholder="Your email address" />
 							<input 
 								className='digitize__left__request__button medium' 
 								type="submit" 

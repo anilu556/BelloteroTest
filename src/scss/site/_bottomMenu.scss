@@ -2,5 +2,46 @@
 	position: relative;
 	width: 100%;
 	height: 440px;
-	background-color: $bottomMenu;
+	background-color: #35374C;
+	&__links {
+		width: 80%;
+		padding-left: 5%;
+		padding-top: 75px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	&__logo {
+
+	}
+	&__img {
+		margin-bottom: 20px;
+	}
+	&__title {
+		margin-bottom: 25px;
+		font-size: 14px;
+		font-weight: 500;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 0.3px;
+		text-align: left;
+		color: $white;
+	}
+	&__list {
+		padding: 0;
+		list-style: none;
+	}
+	&__menuItem {
+		margin-bottom: 20px;
+		width: 70px;
+		height: 16px;
+		font-size: 14px;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 0.3px;
+		text-align: left;
+		color: $whiteTrans;
+	}
 }
