@@ -18,6 +18,7 @@ const railStyle = {
 const domain = [10, 100];
 const domain2 = [1,10];
 const defaultValues = [35];
+const defaultValues2 = [2];
 
 function Track({ source, target, getTrackProps }) { 
   return (
@@ -71,20 +72,28 @@ class SavingsCalc extends React.Component {
 
 		this.state = {
 			values: defaultValues.slice(),
-			values2: defaultValues.slice(),
+			values2: defaultValues2.slice(),
 		   	update: defaultValues.slice(),
 		   	update2: defaultValues.slice(),
+		   	efcs: defaultValues.slice() * 0.3,
+		   	eas: defaultValues.slice() * 1337 + 10.5,
 		};
 	}
 
-	onUpdate = update => {
+	onUpdate = (update) => {
 		this.setState({ update })
 		console.log(update);
 	}
 
-	onChange = values => {
+	onChange = (values) => {
 		this.setState({ values })
-		console.log(values);
+		let x = Math.round(values * 0.3);
+		let y = Math.round(this.state.values2 * 1337 + this.state.efcs);
+		this.setState({
+			efcs: x,
+			eas: y,
+		})
+		console.log(this.state);
 	}
 
 	onUpdate2 = update2 => {
@@ -94,7 +103,10 @@ class SavingsCalc extends React.Component {
 
 	onChange2 = values2 => {
 		this.setState({ values2 })
-		console.log(values2);
+		let x = Math.round(values2 * 1337 + this.state.efcs);
+		this.setState({
+			eas: x,
+		})
 	}
 	render() {
 		/*const { state: { values, values1, updates1,values2,updates2 } } = this*/
@@ -110,8 +122,6 @@ class SavingsCalc extends React.Component {
 							domain={domain}
 							step={1}
 							mode={2}
-							/*onUpdate={()=> console.log("Update",this.state.values)}
-							onChange={()=> console.log("Change",this.state.values)}*/
 							onUpdate={this.onUpdate}
 							onChange={this.onChange}
 							values={this.state.values}
@@ -178,17 +188,19 @@ class SavingsCalc extends React.Component {
 				</div>
 				<div className='savingsCalc__right'>
 					<div className='savingsCalc__right__block'>
-						<div className='savingsCalc__right__text'>
+						<div className='savingsCalc__right__text light'>
 							Your estimated annual savings
 						</div>
-						<div className='savingsCalc__right__result'>
+						<div className='savingsCalc__right__result slabLight'>
+							<span className="savingsCalc__right__sign slabThin">$</span>{this.state.eas}
 						</div>
 					</div>
 					<div className='savingsCalc__right__block'>
-						<div className='savingsCalc__right__text'>
+						<div className='savingsCalc__right__text light'>
 							Estimated food cost savings
 						</div>
-						<div className='savingsCalc__right__result'>
+						<div className='savingsCalc__right__result slabLight'>
+							<span className="savingsCalc__right__sign slabThin">$</span>{this.state.efcs}
 						</div>
 					</div>
 				</div>
