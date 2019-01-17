@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BelloteroTest/precache-manifest.862fdde1f91acf490024f22b591f5d9d.js"
+  "/BelloteroTest/precache-manifest.356dfb37fb6a1436fd6461964ebabe80.js"
 );
 
 workbox.clientsClaim();

@@ -1,7 +1,7 @@
 {
   "main.css": "/BelloteroTest/static/css/main.2b13464f.chunk.css",
-  "main.js": "/BelloteroTest/static/js/main.2f61f68c.chunk.js",
-  "main.js.map": "/BelloteroTest/static/js/main.2f61f68c.chunk.js.map",
+  "main.js": "/BelloteroTest/static/js/main.f758978b.chunk.js",
+  "main.js.map": "/BelloteroTest/static/js/main.f758978b.chunk.js.map",
   "static/css/1.43d56282.chunk.css": "/BelloteroTest/static/css/1.43d56282.chunk.css",
   "static/js/1.e6e1fc9d.chunk.js": "/BelloteroTest/static/js/1.e6e1fc9d.chunk.js",
   "static/js/1.e6e1fc9d.chunk.js.map": "/BelloteroTest/static/js/1.e6e1fc9d.chunk.js.map",
@@ -14,9 +14,9 @@
   "static/media/photo-2.png": "/BelloteroTest/static/media/photo-2.434c36ae.png",
   "static/media/photo-3.png": "/BelloteroTest/static/media/photo-3.47657003.png",
   "static/media/intro-img-1.png": "/BelloteroTest/static/media/intro-img-1.a9c8e35b.png",
-  "static/css/1.43d56282.chunk.css.map": "/BelloteroTest/static/css/1.43d56282.chunk.css.map",
   "static/css/main.2b13464f.chunk.css.map": "/BelloteroTest/static/css/main.2b13464f.chunk.css.map",
+  "static/css/1.43d56282.chunk.css.map": "/BelloteroTest/static/css/1.43d56282.chunk.css.map",
   "index.html": "/BelloteroTest/index.html",
-  "precache-manifest.862fdde1f91acf490024f22b591f5d9d.js": "/BelloteroTest/precache-manifest.862fdde1f91acf490024f22b591f5d9d.js",
+  "precache-manifest.356dfb37fb6a1436fd6461964ebabe80.js": "/BelloteroTest/precache-manifest.356dfb37fb6a1436fd6461964ebabe80.js",
   "service-worker.js": "/BelloteroTest/service-worker.js"
 }
